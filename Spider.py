@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 #==============================================================================
-# This is a simple generic implementation of a web spider using the BeautifulSoup library
-# combined with the Excel package for Python. 
-# It must be properly customized and before use.
+# This is a simple generic implementation of a basic web spider using the
+# BeautifulSoup library combined with the Excel package for Python. 
+# It must be properly customized before use. Use at your own risk.
 #==============================================================================
 
 # Imports
@@ -46,9 +46,7 @@ def extractor(): # Extract url strings from Excel file
 	return
 
 
-def word_builder(soup, url, title):
-	# Extract relevent content and clean response 
-	# ================================================================================== 
+def word_builder(soup, url, title): # Extract relevant content and clean response 
 
 	# Remove html style elements
 	for script in source_soup(["script", "style"]):
