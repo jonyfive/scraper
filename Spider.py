@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 #==============================================================================
-# This is a simple implementation of a web spider using the BeautifulSoup library
-# combined with the Excel package for Python
+# This is a simple generic implementation of a web spider using the BeautifulSoup library
+# combined with the Excel package for Python. 
+# It must be properly customized and before use.
 #==============================================================================
 
 # Imports
