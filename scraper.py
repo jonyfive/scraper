@@ -63,7 +63,7 @@ def word_builder(soup, url, title): # Extract relevant content and clean respons
 				if not temp_text:
 					return
 
- 	# Some more clean up (Lines 80-85 based on stackoverflow.com post) 
+ 	# Some more clean up (Lines 72-76 based on StackOverflow post) 
 	text = ''
 	if not flag:
 		for objects in temp_text: 
