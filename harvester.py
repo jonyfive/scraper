@@ -102,9 +102,8 @@ def word_function(title, url, text):
     print('DOCUMENT IS DONE\n\n\n\n')
     return
 
-# THE MAIN FUNCTION=========================================
 
-
-extractor()
+if __name__ == '__main__':
+    extractor()
 
 # ============================================================
